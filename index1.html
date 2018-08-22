@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Paynow Input Page</title>
+		<script language="javascript" type="text/javascript">
+		var GB_ROOT_DIR = "./greybox/";
+		</script>
+		<script type="text/javascript" src="greybox/AJS.js"></script>
+<script type="text/javascript" src="greybox/AJS_fx.js"></script>
+<script type="text/javascript" src="greybox/gb_scripts.js"></script>
+<link href="greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+
+
+    <body>
+	<!--<form  method="post" action="do.payment.php" id="form" name="form">-->
+	
+	<form action="do.payment.php" method="post" id="form" name="form" onSubmit="javascript:return GB_showFullScreen('Paynow',this.action)" >
+	
+	
+	
+	<table>
+    <tR><Td colspan="2"><h3>Payment Details </h3></Td></tR>
+	<tr><td><label>Amount: </label> </td><td><input type="text" name="amount"></td></tr>
+	<tr><td><label>Description: </label> </td><td><input type="text" name="desc"></td></tr>
+	<tr><td><label>Email: </label> </td><td><input type="text" name="email"></td></tr>
+
+</table>
+
+<input type="submit" value="Process">
+
+	</form>
+
+    </body>
+
+</html>
