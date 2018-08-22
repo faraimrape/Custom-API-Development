@@ -1,2 +1,2 @@
 # Custom-API-Development
-Intergration Scripts
+Intergration Scripts for Paynow Payment Gateway to SAP ERP
